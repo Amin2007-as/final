@@ -1,0 +1,47 @@
+$head-font-family:'Unbounded', sans-serif;
+$white: #fff;
+$zard:#E3FF04;
+$black:#000;
+header{
+    font-family: $head-font-family;
+    .first-head{
+      ul{
+        list-style: none;
+        li{
+            padding: 0 1rem;
+        }
+      }
+      a{
+        text-decoration: none;
+        color: $white;
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
+      .head-2{
+        a:hover{
+        color: $zard;
+        transition: .6s;
+        }
+      }
+      .head-3{
+        a{
+            color:$black ;
+            padding:1.1rem;
+            background-color: $zard;
+        }
+      }
+    }
+    .second-head{
+        div{
+            h1.title{
+                color: $white;
+                font-size: 6rem;
+                font-weight: 600;
+            }
+            p{
+                color: $white;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
